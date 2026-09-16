@@ -45,7 +45,6 @@ const I18N_RESOURCES = {
 
     // Progress Section (Home)
     "progress.title": "团队最新相关进展",
-    "progress.sub": "随大图轮播动态展示四大方向最新代表作与科研成果",
     "progress.all": "查看全部学术成果",
 
 
@@ -142,7 +141,6 @@ const I18N_RESOURCES = {
 
     // Progress Section (Home)
     "progress.title": "Latest Related Progress",
-    "progress.sub": "Representative Publications Synchronized with Banner Directions",
     "progress.all": "View All Publications",
 
 
