@@ -108,6 +108,8 @@ class HeroSlider {
       this.progressContainer.addEventListener('mouseleave', () => {
         this.isPaused = false;
       });
+    }
+
     // Touch swipe gesture support for mobile devices
     if (this.sliderContainer) {
       let touchStartX = 0;
