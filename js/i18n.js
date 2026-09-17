@@ -93,6 +93,26 @@ const I18N_RESOURCES = {
     "exam.submit.btn": "提交考核试卷",
     "exam.reset.btn": "重置作答",
 
+    // Contact View
+    "contact.title": "联系我们",
+    "contact.sub": "Laboratory Location & Contact Information",
+    "contact.lab.badge": "实验科研基地",
+    "contact.lab.name": "华南理工大学化学与化工学院 · 精细化工团队",
+    "contact.lab.sub": "广东省绿色化学产品技术重点实验室 · 高分子与胶体材料实验室",
+    "contact.addr.label": "实验室物理地址",
+    "contact.addr.val": "广东省广州市天河区五山路381号 华南理工大学五山校区 16号楼110室（邮编：510640）",
+    "contact.transit.label": "公共交通与校区指引",
+    "contact.transit.val": "广州地铁3号线「五山站」C出口步行约8分钟进入东区；或乘坐公交至「华工大总站」从正门进入五山校区。",
+    "contact.pi.label": "课题组负责人（PI）",
+    "contact.pi.val": "张心亚 教授 / 博士生导师",
+    "contact.email.label": "学术联络与合作信箱",
+    "contact.btn.email": "发送邮件联络",
+    "contact.btn.pi": "查看导师简介",
+    "contact.join.title": "研究生招收与博士后招聘",
+    "contact.join.desc": "课题组常年招收具有化学工程、高分子化学与物理、应用化学及材料科学背景的硕士生、博士生、博士后研究人员与科研助理。欢迎踏实专注、热爱科研的青年学子加入！申请人请将学术简历发送至课题组邮箱。",
+    "contact.collab.title": "产学研协同攻关与技术合作",
+    "contact.collab.desc": "依托广东省绿色化学产品技术重点实验室，团队在水性聚合物胶乳、高反射及耐候功能涂层、光学传感材料等领域拥有深厚研发积淀与转化经验，欢迎行业领军企业接洽联合技术攻关。",
+
     // Footer & Contact
     "footer.title": "华南理工大学化学与化工学院 · 精细化工团队",
     "footer.addr.label": "实验室地址",
@@ -188,6 +208,26 @@ const I18N_RESOURCES = {
     "exam.logout.btn": "Switch Examinee / Re-login",
     "exam.submit.btn": "Submit Examination",
     "exam.reset.btn": "Reset Answers",
+
+    // Contact View
+    "contact.title": "Contact Us",
+    "contact.sub": "Laboratory Location & Contact Information",
+    "contact.lab.badge": "Research & Laboratory Center",
+    "contact.lab.name": "School of Chemistry and Chemical Engineering, SCUT · Fine Chemical Team",
+    "contact.lab.sub": "Guangdong Provincial Key Laboratory of Green Chemical Product Technology · Polymer & Colloid Materials Laboratory",
+    "contact.addr.label": "Laboratory Physical Address",
+    "contact.addr.val": "Room 110, Building 16, Wushan Campus, South China University of Technology, 381 Wushan Road, Tianhe District, Guangzhou (Postal Code: 510640)",
+    "contact.transit.label": "Transit & Campus Guide",
+    "contact.transit.val": "Metro Line 3, Wushan Station (Exit C), approximately 8 minutes walking distance; or SCUT Bus Terminal at the campus main entrance.",
+    "contact.pi.label": "Principal Investigator (PI)",
+    "contact.pi.val": "Prof. Xinya Zhang, Ph.D. / Doctoral Supervisor",
+    "contact.email.label": "Academic Contact Email",
+    "contact.btn.email": "Send Academic Email",
+    "contact.btn.pi": "View PI Profile",
+    "contact.join.title": "Graduate Admissions & Postdoctoral Recruitment",
+    "contact.join.desc": "The research group consistently recruits master and doctoral students, postdoctoral scholars, and research assistants with academic backgrounds in Chemical Engineering, Polymer Chemistry, and Materials Science. Interested applicants are encouraged to send academic curriculum vitae and representative papers to our contact email.",
+    "contact.collab.title": "Industrial Collaboration & Technical Consulting",
+    "contact.collab.desc": "Supported by the Guangdong Provincial Key Laboratory, the team possesses extensive engineering experience in waterborne polymer latexes, functional coatings, and optical sensors. We welcome research partnerships and technology co-development with industrial leaders.",
 
     // Footer & Contact
     "footer.title": "Fine Chemical Engineering Team | School of Chemistry and Chemical Engineering, SCUT",
