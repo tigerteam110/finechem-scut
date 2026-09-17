@@ -79,8 +79,8 @@ const I18N_RESOURCES = {
 
     // Safety Exam Section
     "exam.title": "实验室安全行为习惯考核系统",
-    "exam.sub": "16#110 Laboratory Daily Safety Habit Examination",
-    "exam.banner.intro": "本系统用于检验进入 16#110 实验室人员的日常操作自觉性与安全卫生习惯。试卷共 20 道日常安全行为判断/单选题，满分（100分）方可合格准入；做错题目系统将自动调取规范出处及详细解析，支持即时查错重练，直至满分通过并颁发《实验室安全准入凭证》。",
+    "exam.sub": "Laboratory Daily Safety Habit Examination",
+    "exam.banner.intro": "本系统用于检验进入实验室人员的日常操作自觉性与安全卫生习惯。试卷共 25 道日常安全行为判断/单选题，每题 4 分，满分（100分）方可合格准入；做错题目系统将自动调取规范出处及详细解析，支持即时查错重练，直至满分通过并颁发《实验室安全准入凭证》。",
     "exam.login.title": "考生登录与准入登记",
     "exam.login.desc": "进入实验室安全习惯考核前，请首先输入真实姓名与华南理工大学学号完成身份登记。登录成功后即刻解锁安全考核题目。",
     "exam.input.name.label": "考试人姓名",
@@ -88,7 +88,7 @@ const I18N_RESOURCES = {
     "exam.input.id.label": "华南理工大学学号",
     "exam.input.id.ph": "请输入学号（如：202421000000）",
     "exam.login.btn": "登录并进入安全考核",
-    "exam.login.tip": "考核共20题，满分100分合格准入，做错支持查错重练，满分颁发准入证书。",
+    "exam.login.tip": "考核共25题，满分100分合格准入，做错支持查错重练，满分颁发准入证书。",
     "exam.logout.btn": "更换考生 / 重新登录",
     "exam.submit.btn": "提交考核试卷",
     "exam.reset.btn": "重置作答",
@@ -175,8 +175,8 @@ const I18N_RESOURCES = {
 
     // Safety Exam Section
     "exam.title": "Laboratory Safety Habit Examination System",
-    "exam.sub": "16#110 Laboratory Daily Safety Habit Examination",
-    "exam.banner.intro": "This system evaluates personal awareness and daily procedural discipline for researchers entering Room 16#110. It contains 20 practical judgment and single-choice questions covering utilities shutoff, fume hood protocols, chemical segregation, tool restoration, and PPE. A score of 100 points is required for certified lab access. Incorrect responses highlight official citations and corrective explanations, supporting immediate correction until full marks are achieved.",
+    "exam.sub": "Laboratory Daily Safety Habit Examination",
+    "exam.banner.intro": "This system evaluates personal awareness and daily procedural discipline for researchers entering the laboratory. It contains 25 practical judgment and single-choice questions covering utilities shutoff, fume hood protocols, chemical segregation, tool restoration, and personal protective equipment. A full score of 100 points is required for certified laboratory access. Incorrect responses highlight official citations and corrective explanations, supporting immediate correction until full marks are achieved.",
     "exam.login.title": "Examinee Access Login",
     "exam.login.desc": "Please enter your full name and SCUT student ID to complete examinee registration before starting the safety habit assessment. The examination questions will unlock upon successful login.",
     "exam.input.name.label": "Examinee Name",
@@ -184,7 +184,7 @@ const I18N_RESOURCES = {
     "exam.input.id.label": "SCUT Student ID",
     "exam.input.id.ph": "Enter student ID number (e.g., 202421000000)",
     "exam.login.btn": "Login and Begin Safety Examination",
-    "exam.login.tip": "The exam consists of 20 questions with 100 points required for passing. A certified access certificate will be issued upon completion.",
+    "exam.login.tip": "The exam consists of 25 questions with 100 points required for passing. A certified access certificate will be issued upon completion.",
     "exam.logout.btn": "Switch Examinee / Re-login",
     "exam.submit.btn": "Submit Examination",
     "exam.reset.btn": "Reset Answers",
