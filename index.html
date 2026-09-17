@@ -9,7 +9,7 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/style.css?v=20260916_18">
+  <link rel="stylesheet" href="css/style.css?v=20260917_02">
   <!-- Critical Part-based View Isolation Style -->
   <style>
     .view-page { display: none; }
@@ -920,21 +920,88 @@
       <div class="container">
         <div class="section-header-row">
           <div class="section-title-wrap">
-            <h2 class="section-bar-title" data-i18n="nav.contact">联系我们</h2>
-            <span class="section-subtitle">Laboratory Location & Contact Information</span>
+            <h2 class="section-bar-title" data-i18n="contact.title">联系我们</h2>
+            <span class="section-subtitle" data-i18n="contact.sub">Laboratory Location & Contact Information</span>
           </div>
         </div>
 
-        <div class="pi-card">
-          <div>
-            <h3 class="footer-brand-title" style="color: var(--primary-navy); font-size: 20px; margin-bottom: 8px;">华南理工大学化学与化工学院 · 精细化工团队</h3>
-            <p style="color: var(--primary-blue); font-weight: 600; margin-bottom: 20px;">广东省绿色化学产品技术重点实验室 · 高分子与胶体材料实验室</p>
-            
-            <div style="font-size: 14.5px; line-height: 2; color: #334155;">
-              <p><i class="fas fa-map-marker-alt" style="color: var(--primary-blue); width: 22px;"></i> <strong>实验室地址：</strong>广东省广州市天河区五山路381号 华南理工大学五山校区 16号楼110室</p>
-              <p><i class="fas fa-mail-bulk" style="color: var(--primary-blue); width: 22px;"></i> <strong>邮政编码：</strong>510640</p>
-              <p><i class="fas fa-user-tie" style="color: var(--primary-blue); width: 22px;"></i> <strong>课题组负责人（PI）：</strong>张心亚 教授 / 博士生导师</p>
-              <p><i class="fas fa-envelope" style="color: var(--primary-blue); width: 22px;"></i> <strong>联系邮箱：</strong><a href="mailto:cexzhang@scut.edu.cn">cexzhang@scut.edu.cn</a></p>
+        <div class="contact-grid">
+          <!-- Main Card: Laboratory Details & Contact Info -->
+          <div class="contact-card">
+            <div class="contact-badge" data-i18n="contact.lab.badge">
+              <i class="fas fa-flask"></i> 实验科研基地
+            </div>
+            <h3 class="contact-heading" data-i18n="contact.lab.name">华南理工大学化学与化工学院 · 精细化工团队</h3>
+            <p class="contact-subhead" data-i18n="contact.lab.sub">广东省绿色化学产品技术重点实验室 · 高分子与胶体材料实验室</p>
+
+            <div class="contact-info-list">
+              <div class="contact-info-item">
+                <div class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-item-body">
+                  <strong data-i18n="contact.addr.label">实验室物理地址</strong>
+                  <span data-i18n="contact.addr.val">广东省广州市天河区五山路381号 华南理工大学五山校区 16号楼110室（邮编：510640）</span>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-icon-wrap"><i class="fas fa-subway"></i></div>
+                <div class="contact-item-body">
+                  <strong data-i18n="contact.transit.label">公共交通与校区指引</strong>
+                  <span data-i18n="contact.transit.val">广州地铁3号线「五山站」C出口步行约8分钟进入东区；或乘坐公交至「华工大总站」从正门进入五山校区。</span>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-icon-wrap"><i class="fas fa-user-tie"></i></div>
+                <div class="contact-item-body">
+                  <strong data-i18n="contact.pi.label">课题组负责人（PI）</strong>
+                  <span data-i18n="contact.pi.val">张心亚 教授 / 博士生导师</span>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-icon-wrap"><i class="fas fa-envelope"></i></div>
+                <div class="contact-item-body">
+                  <strong data-i18n="contact.email.label">学术联络与合作信箱</strong>
+                  <a href="mailto:cexzhang@scut.edu.cn" style="color: var(--primary-blue); font-weight: 600; text-decoration: underline;">cexzhang@scut.edu.cn</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-actions">
+              <a href="mailto:cexzhang@scut.edu.cn" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i>
+                <span data-i18n="contact.btn.email">发送邮件联络</span>
+              </a>
+              <a href="#pi" data-view-target="pi" class="btn btn-outline">
+                <i class="fas fa-user-graduate"></i>
+                <span data-i18n="contact.btn.pi">查看导师简介</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Side Card: Admissions & Industrial Collaboration -->
+          <div class="contact-card">
+            <div class="contact-side-section">
+              <div class="contact-block">
+                <div class="contact-block-header">
+                  <div class="contact-block-icon"><i class="fas fa-graduation-cap"></i></div>
+                  <h4 class="contact-block-title" data-i18n="contact.join.title">研究生招收与博士后招聘</h4>
+                </div>
+                <p class="contact-block-text" data-i18n="contact.join.desc">
+                  课题组常年招收具有化学工程、高分子化学与物理、应用化学及材料科学背景的硕士生、博士生、博士后研究人员与科研助理。欢迎踏实专注、热爱科研的青年学子加入！申请人请将学术简历发送至课题组邮箱。
+                </p>
+              </div>
+
+              <div class="contact-block">
+                <div class="contact-block-header">
+                  <div class="contact-block-icon"><i class="fas fa-handshake"></i></div>
+                  <h4 class="contact-block-title" data-i18n="contact.collab.title">产学研协同攻关与技术合作</h4>
+                </div>
+                <p class="contact-block-text" data-i18n="contact.collab.desc">
+                  依托广东省绿色化学产品技术重点实验室，团队在水性聚合物胶乳、高反射及耐候功能涂层、光学传感材料等领域拥有深厚研发积淀与转化经验，欢迎行业领军企业接洽联合技术攻关。
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -995,9 +1062,9 @@
   </div>
 
   <!-- JavaScript Modules -->
-  <script src="js/i18n.js?v=20260917_01"></script>
-  <script src="js/safety-exam.js?v=20260917_01"></script>
-  <script src="js/hero-slider.js?v=20260917_01"></script>
-  <script src="js/main.js?v=20260917_01"></script>
+  <script src="js/i18n.js?v=20260917_02"></script>
+  <script src="js/safety-exam.js?v=20260917_02"></script>
+  <script src="js/hero-slider.js?v=20260917_02"></script>
+  <script src="js/main.js?v=20260917_02"></script>
 </body>
 </html>
