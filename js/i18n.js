@@ -34,7 +34,7 @@ const I18N_RESOURCES = {
     "hero.slide3.tag": "03",
     "hero.slide3.sub": "PHOTONIC & SOFT MATERIALS",
     "hero.slide3.title": "胶体光子晶体与智能软材料",
-    "hero.slide3.desc": "仿生光子晶体双网络水凝胶微观构建，突破大面积有序组装瓶颈，服务于微观形变光学传感与刺激响应智能软材料。",
+    "hero.slide3.desc": "探索胶体光子晶体有序自组装机理，构建可视化光学传感与智能光调控器件；构筑高性能功能化水凝胶网络，应用于柔性穿戴感知与刺激响应材料。",
     "hero.slide3.btn": "探索光子晶体",
 
     "hero.slide4.tag": "04",
@@ -130,7 +130,7 @@ const I18N_RESOURCES = {
     "hero.slide3.tag": "03",
     "hero.slide3.sub": "PHOTONIC & SOFT MATERIALS",
     "hero.slide3.title": "Colloidal Photonic Crystals & Smart Soft Materials",
-    "hero.slide3.desc": "Biomimetic photonic crystal double-network hydrogels and large-scale ordered colloidal self-assembly for visual optical deformation sensing and multi-stimuli responsive smart systems.",
+    "hero.slide3.desc": "Investigate self-assembly mechanisms of colloidal photonic crystals for visual sensing and optical modulation; construct functional hydrogel networks for wearable sensing and stimuli-responsive materials.",
     "hero.slide3.btn": "Discover Photonic Systems",
 
     "hero.slide4.tag": "04",
